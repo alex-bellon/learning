@@ -1,4 +1,5 @@
-#+LATEX_HEADER: \usepackage[margin=1in, top=1.5in]{geometry}\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\lhead{Public Transportation Systems}\rhead{Notes}\rfoot{\thepage}
+#+LATEX_HEADER: \documentclass[11pt]{article}
+#+LATEX_HEADER: \usepackage[margin=.7in, top=1.2in]{geometry}\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\lhead{Public Transportation Systems}\rhead{Notes}\rfoot{\thepage}\
 #+LATEX_HEADER: \usepackage{enumitem}
 #+LATEX_HEADER: \setlist{\setlength\itemsep{0em}\setlength\topsep{0em}}}
 
