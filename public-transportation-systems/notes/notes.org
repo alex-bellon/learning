@@ -1,5 +1,8 @@
 #+LATEX_HEADER: \usepackage[margin=1in, top=1.5in]{geometry}\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\lhead{Public Transportation Systems}\rhead{Notes}\rfoot{\thepage}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setlist{\setlength\itemsep{0em}\setlength\topsep{0em}}}
 
+\clearpage
 * Introduction
 
 ** Transit right now
@@ -9,29 +12,70 @@
   - Auto is above 80%
   - Transit 2-3%
   - Biking and walking are the same as transit
+
 ** Funding
 - In North America, it's divided into captial and operating expenses
 - Fares only pay ~1/3 of operational expenses
 - Lots of federal support for capital expenses - almost 40%
   - Since operating expenses are funded less, this encourages more building and less maintenance
 - Fuel taxes in NA are 10-20% of what they are in Europe
+
 ** Traditional Arguments Supporting Transit
 - Equity: travel for those who can't drive
 - Congestion
   - Not such a good argument, papers don't support it. The capacity released it quickly filled again
 - Better for the environment
   - Actually, effort it better spent making cars cleaner since they're like 80% of transport
+
 ** Critical assessment
 - Transport has been stabilized
 - Success stories (NYC, Houston(?), Seattle)
 - Institutional changes are occurring slowly
+
 ** Future influences
 - Urban form
 - More old people
 - Better tech to improve performance
 - Public has higher expectation (you know exactly when the bus is coming)
+
 ** Ingredients for future success
 - Maintain supportive coalition
 - Expand the definition of public transport
 - Greater private sector involvement
 - Aggressive implementation of new technology
+
+\clearpage
+* Data Collection Techniques and Program Design
+
+** Summary of current practice
+- Used to be manual
+- Now is collected with IoT devices
+- *Automated Data Collection Systems (ADCS)*
+  - *Automated Fare Collection Systems (AFC)*
+    - Tapping your card on/off the vehicle
+  - *Automatic Vehicle Location Systems (AVL)*
+    - GPS tracking for buses, train tracking based on circuit occupancy
+  - *Automatic Passenger Counting Systems (APC)*
+    - Sensors in bus doors
+      - Use break beam sensors to tell if you're getting on or off (out of 2 beams which do you break first)
+    - Counts from fare barriers
+    - Load weight calculators on trains
+      - In trains the brakes apply force proportional to the load in each car (lighter cars need less braking, heavier cars need more, so they dont run into each other)
+
+** Passenger counting techniques
+- Manual - checker (a person)
+  - Ride check (on the bus, on/off counts and running time)
+  - Point check (load on board, headway - time between buses)
+
+** Sampling
+- *Simple random sampling*
+- *Systematic sampling* - every 6 days, etc
+- *Cluster sampling* - do as much data collection as possible
+- *Ratio estimation/Conversion factors*
+- *Stratified sampling* - sample sizes for each thing separately
+  - E.g. you want information about students: get a large sample size on routes that serve universities
+
+** Tolerance and confidence level
+- Accuracy has 2 dimensions
+  - Relative tolerance: $\pm 10\%$
+  - Absolute tolerance: $\pm 3.3$
