@@ -1,0 +1,37 @@
+#+LATEX_HEADER: \usepackage[margin=1in, top=1.5in]{geometry}\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\lhead{Public Transportation Systems}\rhead{Notes}\rfoot{\thepage}
+
+* Introduction
+
+** Transit right now
+- Ridership is increasing, but small
+- Strong financial support from
+- Trends in modal split
+  - Auto is above 80%
+  - Transit 2-3%
+  - Biking and walking are the same as transit
+** Funding
+- In North America, it's divided into captial and operating expenses
+- Fares only pay ~1/3 of operational expenses
+- Lots of federal support for capital expenses - almost 40%
+  - Since operating expenses are funded less, this encourages more building and less maintenance
+- Fuel taxes in NA are 10-20% of what they are in Europe
+** Traditional Arguments Supporting Transit
+- Equity: travel for those who can't drive
+- Congestion
+  - Not such a good argument, papers don't support it. The capacity released it quickly filled again
+- Better for the environment
+  - Actually, effort it better spent making cars cleaner since they're like 80% of transport
+** Critical assessment
+- Transport has been stabilized
+- Success stories (NYC, Houston(?), Seattle)
+- Institutional changes are occurring slowly
+** Future influences
+- Urban form
+- More old people
+- Better tech to improve performance
+- Public has higher expectation (you know exactly when the bus is coming)
+** Ingredients for future success
+- Maintain supportive coalition
+- Expand the definition of public transport
+- Greater private sector involvement
+- Aggressive implementation of new technology
