@@ -1,7 +1,8 @@
 * Learning
 
 ** Table of Contents
-- [[https://github.com/alex-bellon/algebra][(Abstract) Algebra]]
-- [[https://github.com/alex-bellon/analysis][Analysis I]]
+- [[https://github.com/alex-bellon/algebra][(Abstract) Algebra]] /(Unfinished)/
+- [[https://github.com/alex-bellon/analysis][Analysis I]] /(Unfinished)/
+- [[https://github.com/alex-bellon/category-theory-for-programmers][Category Theory For Programmers]] /(Unfinished)/
 - Computer Security
-- Public Transporation Systems
+- Public Transporation Systems /(In progress)/
