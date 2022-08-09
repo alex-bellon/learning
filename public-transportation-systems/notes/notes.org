@@ -80,3 +80,67 @@
 - Accuracy has 2 dimensions
   - Relative tolerance: $\pm 10\%$
   - Absolute tolerance: $\pm 3.3$
+
+\clearpage
+* Modal Characteristics and Roles
+
+** Spectrum of services
+[[file:.images/modes.png]]
+
+** Transit categories
+- Rights of way - degree of separation
+  - Surface with mixed traffic (light rail/buses)
+  - Longitudinal separation by at grade crossing (light rail/bus rapid transit)
+  - Full separation (at grade/tunnel/elevated)
+- Technologies
+  - Support (how they contact the groups)
+    - Rubber tire on concrete (cars, buses, some rail like Paris Metro)
+    - Steel wheel on steel rail
+    - Maglev
+    - Suspended cars
+    - Water
+    - Others
+  - Guidance (lateral control)
+    - Steered by driver
+    - Guided by track
+    - Others
+  - Energy and propulsion
+    - Combustion engine
+    - Electric
+    - Compressed natural gas (CNG)
+    - Hybrid
+    - Others
+  - Control (longitudinal)
+    - Manual/visual
+    - Manual/signal
+    - Automatic
+
+** Basics of train control
+- Divide the system into blocks
+  - If a train is occupying a section, do not let any trains in the section immediately before
+  - For each block further, slowly increase speed limit in that block from nothing (0, 10, 25, 40,...)
+- Block system constrains the frequency of service
+- Moving block system increases capacity, usually used with automatic driving systems
+
+** Levels of automated protection
+- None - advisory way signals
+- Manual setting of speed below speed limit - train will be automatically braked if over speed limit
+- Automatic train supervision/regulation
+- Full automation - sometimes has operators, needs to have platform screen doors to keep people off of track
+- Capacity increased through moving block or communication based train control
+
+** What is a bus?
+- Vehicle size - 10-250 passengers
+- Floor height (high floor/low floor)
+  - Low floor is better for accessibility, has lower dwell time
+- Right of way - all options available
+- Guidance - often manual, sometimes systems
+- Propulsion - all options available
+- Fare payment - pay outside, or pay in the bus
+
+** Examples of bus systems
+- Bi-articulated buses are a thing
+- In Curitiba, bi-articulated buses have high floors, and have to be boarded at specific stations with fare gates
+- The Cambridgeshire Guided Busway has buses operating on dedicated "tracks" of pavement
+  [[file:.images/busway.jpg]]
+  - Buses can also be [[https://en.wikipedia.org/wiki/Guided_bus#Optical_guidance][optically guided]], following a line on the floor with a camera
