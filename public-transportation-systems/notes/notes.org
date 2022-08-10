@@ -144,3 +144,71 @@
 - The Cambridgeshire Guided Busway has buses operating on dedicated "tracks" of pavement
   [[file:.images/busway.jpg]]
   - Buses can also be [[https://en.wikipedia.org/wiki/Guided_bus#Optical_guidance][optically guided]], following a line on the floor with a camera
+
+** Light Rail
+- Vehicle design
+  - High/low floor
+  - Articulated or not
+- Right of way
+  - All options available
+- Operation
+  - Automated or manual
+- Power
+  - Overhead catenaries
+  - Third rail
+    - On street rails, the third rail is electronically controlled and is only powered when the train is coming
+
+** Heavy Rail
+- Length
+  - Limited by station length
+  - In some cases (like in London) they allow the last door of the last car to stay in the runnel
+- Turning radius
+- Right of way
+  - At-grade
+  - Elevated
+  - Tunnel
+- Station spacing
+- Control
+- Power
+
+** Commuter Rail
+- Vehicles operating in trains with long station spacing
+- Fare collection strategies
+- Line length
+- Through routing in CBD [central business district] (cross through city or go there and back)
+  - Where to put trains when you're done
+- Station spacing
+- Parking capacity
+
+** Traditional and new service concepts
+- Traditional
+  - Bus on shared right of way
+  - Streetcar on shared right of way
+  - Heavy rail on exclusive ROW
+  - Commuter/regional rail on semi-exclusive ROW
+- New
+  - Bus rapid transit
+  - Light rail on exclusive ROW
+
+** Increasing diversity
+- Driver arrangements
+  - Part timers (cover peaks), 10 hour day (to cover peaks that are 8 hours apart), payment by vehicle type
+- Routing and scheduling
+- Vehicle types
+- control options
+- Priority options
+- Dual mode operation
+
+** Bus vs rail comparison
+- Rail advantages
+  - Higher capacity
+  - Lower unit operating cost
+  - Better service quality
+  - Stronger land use influence
+  - Fewer negative externalities
+- Bus advantages
+  - Low capital costs
+  - Wide network coverage
+  - Single vehicle trips
+  - Flexibility
+  - Dual mode nature
