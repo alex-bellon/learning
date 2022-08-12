@@ -212,3 +212,28 @@
   - Single vehicle trips
   - Flexibility
   - Dual mode nature
+
+* Short-Range Planning Practice
+
+** Public transit planning
+- Long range (>3 years)
+  - Major capital investments, infrastructure
+  - Usually in collaboration with government
+- Medium range (1-3 years)
+  - Fleet size, network size, fare policy
+  - Usually in collaboration with government
+- Short range (<1 year)
+  - Route structure, service frequency
+  - Incremental changes
+  - Can be handled only by the transit authority
+- Control (real time)
+  - Revise schedule and route of specific vehicle
+
+** Operational planning process
+- Right of way + demand => bus route design => routes and stops
+- Service + demand => set timetables => departure times
+- Travel time constraints => scheduling vehicles => vehicle schedules
+- Operator and union constraints => scheduling drivers => crew schedules
+
+** Cycle
+- Goals => objective => measures => standard
