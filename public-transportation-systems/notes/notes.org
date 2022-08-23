@@ -213,7 +213,7 @@
   - Flexibility
   - Dual mode nature
 
-* Short-Range Planning Practice
+* Short Range Planning
 
 ** Public transit planning
 - Long range (>3 years)
@@ -235,5 +235,42 @@
 - Travel time constraints => scheduling vehicles => vehicle schedules
 - Operator and union constraints => scheduling drivers => crew schedules
 
-** Cycle
-- Goals => objective => measures => standard
+** Transit service guidelines
+- Goals => objective => measures => standards
+- Early arrivals are not considered on time, because it may still cause people to miss connections
+- Purpose
+  - Communicate to the public and their representatives how decisions are made on changes in the transit network and the allocation of resources
+  - Ensure acceptable level of service quality
+  - Provide a consistent and fair bases for
+    - Evaluating existing services
+    - Considering new services
+  - Balance impreovements with efficient use of resources
+
+** Aspects covered by service guidelines
+- Service design
+  - Factors that are important to riders:
+    - Frequency
+    - Waiting time
+    - Reliability
+    - Access
+  - Why are frequency and waiting time both here?
+    - Waiting time can be independent of waiting time - if a bus comes early, it will change waiting time
+- Operating perfornace
+  - Service quality
+
+** Service design: schedule
+- Two main components
+  - Maximum (policy) headways
+  - Maximum passenger crowding
+    - Usually for peak corridors
+
+* Short Range Planning, con't.
+
+** Service reliability
+- Walk up service
+  - Schedule free
+  - Headway-based, <10 minutes
+  - Performance based on headway
+- Scheduled service
+  - >= 10 minute headway
+  - Performance measurement based on punctuality
