@@ -274,3 +274,19 @@
 - Scheduled service
   - >= 10 minute headway
   - Performance measurement based on punctuality
+
+** Alternative benefit measures
+- Revenue
+  - Relevant to financial concerns and willingness to pay, discounts reduced fare trips and favors higher income passengers
+- Passengers
+  - Reflects number of people who benefit, values each passenger equally, but doesn't reflect trup length or linked trips
+- Passenger miles
+  - Weights longer trips more, but hardest to measure since most systems don't have an exit
+- Net cost
+  - Usually most directly constrained, but hardest to estimate (if you're planning a new service, you won't know revenue)
+- Cost
+  - Also directly constrained, but hard to estimate
+- Vehicle miles
+  - Easy to measure, only reflects ~30% of bus costs and penalized fast service
+- Vehicle hours
+  - Easy to measure, related to >50% bus costs, but doesn't reflect cost differences between peak and off-peak
