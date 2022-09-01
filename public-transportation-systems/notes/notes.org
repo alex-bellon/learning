@@ -213,6 +213,7 @@
   - Flexibility
   - Dual mode nature
 
+\clearpage
 * Short Range Planning
 
 ** Public transit planning
@@ -290,3 +291,90 @@
   - Easy to measure, only reflects ~30% of bus costs and penalized fast service
 - Vehicle hours
   - Easy to measure, related to >50% bus costs, but doesn't reflect cost differences between peak and off-peak
+
+\clearpage
+* Modal Capacities and Costs
+
+** Simple calculation analysis
+- Given
+  - $P_c$ = population density at CBD
+  - $dP$ = rate of decrease of population density with distance from CBD
+  - $\theta$ = angle served by corridor
+  - $r$ = distance from CBD
+  - $L$ = corridor length
+  - $t$ = number of one-way trips per person per day
+  - $c$ = share of trips inbound to CBD
+  - $m$ = transit market share for CBD-bound trips
+  - $p$ = share of CBD-bound transit trips in peak hour
+- Then
+  - Population in corridor = $\int^{L}_{0} r\theta (P_c - dPr) dr$
+  - Peak passenger flow = $L^2\theta (\frac{P_c}{2}-\frac{dPL}{3}) tcmp$
+  - Maximum access distance to transit line = $\frac{L\theta}{2}$
+
+** Theoretical capacities
+- Rail
+  - 10 car trains
+  - 200 passengers per car
+  - 2 minute headway
+  - = 60,000 passengers/hr
+- Bus
+  - 70 passengers/bus
+  - 30 second headway
+  - = 8,400 passengers/hr
+- BRT
+  - 200 passengers/bus
+  - 20 second headways
+  - = 36,000 passengers/hr
+- Light Rail
+  - 2 car trains
+  - 150 passengers/car
+  - 1 minute headway
+  - 18,000 passengers/hr
+
+** Capital costs
+- In the US, $18.2 billion was spent in capital costs in 2013
+  - By type
+    - 25% for vehicles
+    - 59% infrastructure and facilities
+    - 16% other
+  - By mode
+    - 25% bus
+    - 34% heavy rail
+    - 17% commuter rail
+    - 19% light rail
+    - 5% other (mostly paratransit)
+  - Capital costs don't vary as much as you would expect year to year, because a) there are a lot of cities with new projects and b) the projects are gradual and can span years
+
+file:.images/cap-cost-breakdown.png
+
+** Infrastructure cost
+- Type of construction (increasing in cost)
+  - at grade
+  - elevated
+  - subway
+    - shallow tunnel (cut and cover)
+    - deep tunnel (tunnel boring machine)
+- Land acquisition and clearance
+- Number, size, complexity and length of stations
+- Systems complexity
+
+** Typical capital costs per passenger mile
+- For all modes
+  - Vehicle cost per pass. mile: $0.05-0.10
+  - Infrastructure cost per pass. mile: $0.01-1.00i (because there are so many different ways of doing it)
+
+** Operating costs
+- In the US, $42.2 billion was spent on operating costs in 2013
+  - By type
+    - 44% for vehicle operations
+    - 16% for vehicle maintenance
+    - 11% for non-vehicle maintenance
+    - 16% for administration
+    - 14% for purchased transportation (hiring third parties, mostly for paratransit)
+  - By mode
+    - 49% for buses
+    - 19% for heavy rail
+    - 13% for commuter rail
+    - 4% for light rail
+    - 12% for paratransit
+    - 3% for other modes
