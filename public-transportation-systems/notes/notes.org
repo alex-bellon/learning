@@ -45,7 +45,6 @@
 - Greater private sector involvement
 - Aggressive implementation of new technology
 
-\clearpage
 * Data Collection Techniques and Program Design
 
 ** Summary of current practice
@@ -81,7 +80,6 @@
   - Relative tolerance: $\pm 10\%$
   - Absolute tolerance: $\pm 3.3$
 
-\clearpage
 * Modal Characteristics and Roles
 
 ** Spectrum of services
@@ -213,7 +211,6 @@
   - Flexibility
   - Dual mode nature
 
-\clearpage
 * Short Range Planning
 
 ** Public transit planning
@@ -292,7 +289,6 @@
 - Vehicle hours
   - Easy to measure, related to >50% bus costs, but doesn't reflect cost differences between peak and off-peak
 
-\clearpage
 * Modal Capacities and Costs
 
 ** Simple calculation analysis
@@ -378,3 +374,35 @@ file:.images/cap-cost-breakdown.png
     - 4% for light rail
     - 12% for paratransit
     - 3% for other modes
+
+* Cost Estimation
+
+** Roles
+- Predict cost change associated with service change
+  - Marginal or incremental cost
+  - Sensitive to time periods
+- Predict cost changes with production process
+  - Introduce part time operators
+  - Contract out maintenance, suburban routes
+  - New fare technology
+- Subsidy allocation among jurisdictions
+
+** Types of cost models
+- Fully allocated causal factor models
+  - Not sensitive to time periods
+- Temporal variation models
+- Incremental fixed/variable cost models
+
+** Fully allocated causal factor models
+- Select causal factors: vehicle hours, miles, peak vehicles
+- Assign each expense type to an appropriate factor
+- Calculate average costs per unit of Factor A, B, C
+- Define cost model as: $A \times \text{vehicle hours} + B \times \text{vehicle miles} + C \times \text{peak vehicles}$
+
+** Temporal variation models
+- Follow fully allocated causal factor model procedure for all except operator costs
+- To estimate operator costs, for each 30 min time period $t$,
+  - identify all runs, $i$, with at least 15 minutes of vehicle time in period $t$
+  - for each run $i$, compute the average pay per vehicle hour by dividing daily pay $W_i$ by vehicle hours $H_i$
+  - find the minimum, average and maximum pay per vehicle hour in period $t$. Average given by:
+    \[W_i = \frac{\sum^{n}_{i=1}(\frac{W_i}{H_i})}{n}\]
