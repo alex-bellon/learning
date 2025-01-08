@@ -406,3 +406,58 @@ file:.images/cap-cost-breakdown.png
   - for each run $i$, compute the average pay per vehicle hour by dividing daily pay $W_i$ by vehicle hours $H_i$
   - find the minimum, average and maximum pay per vehicle hour in period $t$. Average given by:
     \[W_i = \frac{\sum^{n}_{i=1}(\frac{W_i}{H_i})}{n}\]
+
+* Ridership Forecasting
+
+** Roles
+- Predicting ridership as a result of changing fares
+- Predicting ridership for general agency planning and budgeting
+- Predicting ridership as a result of service changes
+
+** Factors Affecting Transit Ridership
+- Exogenous
+  - Auto ownership availability
+  - Gas prices
+  - Demographics
+  - Usually can be assumed to be "fixed" in the short run
+- Endogenous
+  - Fare
+  - Headways
+  - Route structure (walk time, ride time)
+  - Crowding
+  - Reliability
+
+** Route Ridership Prediction
+- Traditional approach is reactive
+  - Exogenous change: monitor ridership change
+  - Endogenous change: modify system accordingly
+
+** Professional Judgement
+- Widely used
+- Based on experience and local knowledge
+- No evidence of accuracy or reproducability
+- Lack of faith in data, etc.
+
+** Survey-based Methods
+- Non-committal survey
+  - Non recommended
+- Stated preference surveys
+  - Provide comparisons between A and B instead of A vs not-A
+  - People contradict themselves, and you can then adjust for biases
+
+** Cross-sectional Model
+- Use route and demographic data to explain route ridership
+- Many methods
+  - Rules of thumb
+  - "Similar routes" method
+  - Multiple factor trip rate model
+  - Aggregate route regression models
+
+** Typical Transit Elasticities
+- Elastic = more sensitive to change
+- Small cities have larger fare elasticities than large cities (fewer number of people)
+- Bus travel is more elastic than commuter/rapid rail (there are more alternatives for short distances)
+- Off peak fare elasticities are double that of peak fare
+- Short distance trups are more elastic than long distance
+- Fare elasticities rise with income and fall with age
+- Work trips are the most inelastic
