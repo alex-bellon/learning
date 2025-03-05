@@ -461,3 +461,39 @@ file:.images/cap-cost-breakdown.png
 - Short distance trups are more elastic than long distance
 - Fare elasticities rise with income and fall with age
 - Work trips are the most inelastic
+
+* Origin, Destination, and Transfer Inference
+
+** Intro
+- Using automatically collected data
+- Infers destinations (in open systems -- i.e. no tapping off)
+- Infers transfers
+
+** Key Automated Data Collection Systems (ADCS)
+- Automatic Vehicle Location (AVL)
+- Automatic Fare Collection (AFC)
+- Automatic Passenger Counting (APC)
+
+** OD Matrix Estimation
+- Why do we need to know about inference?
+  - The real destination might be on route 2 if they have to start with route 1
+  - For service planning, you want to know what people actually want to do
+
+** Origin Inference
+- Is tap close to a time when the AVL says it was at one of the stops?
+
+** Destination Inference: Closest Stop
+ - Key assumptions
+   - Destination of the trip segment is close to the origin of the following trip segment
+   - No intermediate private transportation mode trip segment
+   - Passengers will not walk long distances
+   - Last trip of a day ends at the origin of the day
+
+** Destination Inference: Minimum Cost Path
+- Calculate minimum cost path
+- Useful for open systems
+
+** Trip Linking Assumptions (i.e., this is a transfer)
+- Temporal conditions - interchange time (distance), maximum bus wait time (headways)
+- Spatial conditions - Maximum interchange distance, circuity between stages, ending journey near origin
+- Logical conditions - Must not continue at same station, same route
