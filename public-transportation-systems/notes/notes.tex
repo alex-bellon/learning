@@ -1,4 +1,4 @@
-% Created 2022-09-07 Wed 00:25
+% Created 2025-04-01 Tue 19:35
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -13,7 +13,7 @@
 \usepackage{capt-of}
 \usepackage{hyperref}
 \documentclass[11pt]{article}
-\usepackage[margin=.7in, top=1.2in]{geometry}\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\lhead{Public Transportation Systems}\rhead{Notes}\rfoot{\thepage}\
+\usepackage[margin=.7in, top=1.2in]{geometry}\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\lhead{Public Transportation Systems}\rhead{Notes}\rfoot{\thepage}
 \usepackage{enumitem}
 \setlist{\setlength\itemsep{0em}\setlength\topsep{0em}}}
 \author{Alex Bellon}
@@ -24,7 +24,7 @@
  pdftitle={},
  pdfkeywords={},
  pdfsubject={},
- pdfcreator={Emacs 28.1 (Org mode 9.6)}, 
+ pdfcreator={Emacs 30.1 (Org mode 9.7.22)}, 
  pdflang={English}}
 \begin{document}
 
@@ -32,10 +32,10 @@
 
 \clearpage
 \section{Introduction}
-\label{sec:orgf48603c}
+\label{sec:org6d9e637}
 
 \subsection{Transit right now}
-\label{sec:org910318b}
+\label{sec:orgbde5f47}
 \begin{itemize}
 \item Ridership is increasing, but small
 \item Strong financial support from
@@ -46,9 +46,8 @@
 \item Biking and walking are the same as transit
 \end{itemize}
 \end{itemize}
-
 \subsection{Funding}
-\label{sec:org0f4755a}
+\label{sec:org7f028db}
 \begin{itemize}
 \item In North America, it's divided into captial and operating expenses
 \item Fares only pay \textasciitilde{}1/3 of operational expenses
@@ -58,9 +57,8 @@
 \end{itemize}
 \item Fuel taxes in NA are 10-20\% of what they are in Europe
 \end{itemize}
-
 \subsection{Traditional Arguments Supporting Transit}
-\label{sec:orgfb7ac24}
+\label{sec:org4139b3f}
 \begin{itemize}
 \item Equity: travel for those who can't drive
 \item Congestion
@@ -72,38 +70,34 @@
 \item Actually, effort it better spent making cars cleaner since they're like 80\% of transport
 \end{itemize}
 \end{itemize}
-
 \subsection{Critical assessment}
-\label{sec:orge79c2fc}
+\label{sec:org744ea5b}
 \begin{itemize}
 \item Transport has been stabilized
 \item Success stories (NYC, Houston(?), Seattle)
 \item Institutional changes are occurring slowly
 \end{itemize}
-
 \subsection{Future influences}
-\label{sec:org89e87ea}
+\label{sec:org51c77ba}
 \begin{itemize}
 \item Urban form
 \item More old people
 \item Better tech to improve performance
 \item Public has higher expectation (you know exactly when the bus is coming)
 \end{itemize}
-
 \subsection{Ingredients for future success}
-\label{sec:orgc1c910c}
+\label{sec:orgde2b387}
 \begin{itemize}
 \item Maintain supportive coalition
 \item Expand the definition of public transport
 \item Greater private sector involvement
 \item Aggressive implementation of new technology
 \end{itemize}
-
 \section{Data Collection Techniques and Program Design}
-\label{sec:orga175282}
+\label{sec:org68f6832}
 
 \subsection{Summary of current practice}
-\label{sec:org32bef8b}
+\label{sec:org7bcaa43}
 \begin{itemize}
 \item Used to be manual
 \item Now is collected with IoT devices
@@ -131,9 +125,8 @@
 \end{itemize}
 \end{itemize}
 \end{itemize}
-
 \subsection{Passenger counting techniques}
-\label{sec:orge60e57a}
+\label{sec:org632f646}
 \begin{itemize}
 \item Manual - checker (a person)
 \begin{itemize}
@@ -141,9 +134,8 @@
 \item Point check (load on board, headway - time between buses)
 \end{itemize}
 \end{itemize}
-
 \subsection{Sampling}
-\label{sec:org863285b}
+\label{sec:org78a458a}
 \begin{itemize}
 \item \textbf{Simple random sampling}
 \item \textbf{Systematic sampling} - every 6 days, etc
@@ -154,9 +146,8 @@
 \item E.g. you want information about students: get a large sample size on routes that serve universities
 \end{itemize}
 \end{itemize}
-
 \subsection{Tolerance and confidence level}
-\label{sec:org5dcbfb1}
+\label{sec:org750bb0c}
 \begin{itemize}
 \item Accuracy has 2 dimensions
 \begin{itemize}
@@ -164,18 +155,16 @@
 \item Absolute tolerance: \(\pm 3.3\)
 \end{itemize}
 \end{itemize}
-
 \section{Modal Characteristics and Roles}
-\label{sec:org87eec06}
+\label{sec:org5047d4e}
 
 \subsection{Spectrum of services}
-\label{sec:org0acb702}
+\label{sec:org5f565c1}
 \begin{center}
 \includegraphics[width=.9\linewidth]{.images/modes.png}
 \end{center}
-
 \subsection{Transit categories}
-\label{sec:org5db27f4}
+\label{sec:orgfec1b07}
 \begin{itemize}
 \item Rights of way - degree of separation
 \begin{itemize}
@@ -216,9 +205,8 @@
 \end{itemize}
 \end{itemize}
 \end{itemize}
-
 \subsection{Basics of train control}
-\label{sec:org4c4f290}
+\label{sec:orga6b1f2c}
 \begin{itemize}
 \item Divide the system into blocks
 \begin{itemize}
@@ -228,9 +216,8 @@
 \item Block system constrains the frequency of service
 \item Moving block system increases capacity, usually used with automatic driving systems
 \end{itemize}
-
 \subsection{Levels of automated protection}
-\label{sec:orgb1332ca}
+\label{sec:org4437e8d}
 \begin{itemize}
 \item None - advisory way signals
 \item Manual setting of speed below speed limit - train will be automatically braked if over speed limit
@@ -238,9 +225,8 @@
 \item Full automation - sometimes has operators, needs to have platform screen doors to keep people off of track
 \item Capacity increased through moving block or communication based train control
 \end{itemize}
-
 \subsection{What is a bus?}
-\label{sec:orgb9584e5}
+\label{sec:org4cfb0fc}
 \begin{itemize}
 \item Vehicle size - 10-250 passengers
 \item Floor height (high floor/low floor)
@@ -252,9 +238,8 @@
 \item Propulsion - all options available
 \item Fare payment - pay outside, or pay in the bus
 \end{itemize}
-
 \subsection{Examples of bus systems}
-\label{sec:org21b49b6}
+\label{sec:orgc89fda6}
 \begin{itemize}
 \item Bi-articulated buses are a thing
 \item In Curitiba, bi-articulated buses have high floors, and have to be boarded at specific stations with fare gates
@@ -266,9 +251,8 @@
 \item Buses can also be \href{https://en.wikipedia.org/wiki/Guided\_bus\#Optical\_guidance}{optically guided}, following a line on the floor with a camera
 \end{itemize}
 \end{itemize}
-
 \subsection{Light Rail}
-\label{sec:orgdd1ed04}
+\label{sec:org0a1a3d0}
 \begin{itemize}
 \item Vehicle design
 \begin{itemize}
@@ -292,9 +276,8 @@
 \end{itemize}
 \end{itemize}
 \end{itemize}
-
 \subsection{Heavy Rail}
-\label{sec:org5daa05e}
+\label{sec:org3857b8d}
 \begin{itemize}
 \item Length
 \begin{itemize}
@@ -312,9 +295,8 @@
 \item Control
 \item Power
 \end{itemize}
-
 \subsection{Commuter Rail}
-\label{sec:orgc80b113}
+\label{sec:org02dc515}
 \begin{itemize}
 \item Vehicles operating in trains with long station spacing
 \item Fare collection strategies
@@ -326,9 +308,8 @@
 \item Station spacing
 \item Parking capacity
 \end{itemize}
-
 \subsection{Traditional and new service concepts}
-\label{sec:orgaf46fa9}
+\label{sec:org6e753d9}
 \begin{itemize}
 \item Traditional
 \begin{itemize}
@@ -343,9 +324,8 @@
 \item Light rail on exclusive ROW
 \end{itemize}
 \end{itemize}
-
 \subsection{Increasing diversity}
-\label{sec:orgb78ec63}
+\label{sec:orgdfa4ada}
 \begin{itemize}
 \item Driver arrangements
 \begin{itemize}
@@ -357,9 +337,8 @@
 \item Priority options
 \item Dual mode operation
 \end{itemize}
-
 \subsection{Bus vs rail comparison}
-\label{sec:org90409c7}
+\label{sec:orgf3ce4d8}
 \begin{itemize}
 \item Rail advantages
 \begin{itemize}
@@ -378,12 +357,11 @@
 \item Dual mode nature
 \end{itemize}
 \end{itemize}
-
 \section{Short Range Planning}
-\label{sec:org74aeab3}
+\label{sec:org0c18219}
 
 \subsection{Public transit planning}
-\label{sec:org5204275}
+\label{sec:orgbb837cd}
 \begin{itemize}
 \item Long range (>3 years)
 \begin{itemize}
@@ -406,18 +384,16 @@
 \item Revise schedule and route of specific vehicle
 \end{itemize}
 \end{itemize}
-
 \subsection{Operational planning process}
-\label{sec:org980c810}
+\label{sec:org6a807ad}
 \begin{itemize}
 \item Right of way + demand => bus route design => routes and stops
 \item Service + demand => set timetables => departure times
 \item Travel time constraints => scheduling vehicles => vehicle schedules
 \item Operator and union constraints => scheduling drivers => crew schedules
 \end{itemize}
-
 \subsection{Transit service guidelines}
-\label{sec:org7bb1ff9}
+\label{sec:org765ae67}
 \begin{itemize}
 \item Goals => objective => measures => standards
 \item Early arrivals are not considered on time, because it may still cause people to miss connections
@@ -433,9 +409,8 @@
 \item Balance impreovements with efficient use of resources
 \end{itemize}
 \end{itemize}
-
 \subsection{Aspects covered by service guidelines}
-\label{sec:org301d14f}
+\label{sec:org4c7c0b1}
 \begin{itemize}
 \item Service design
 \begin{itemize}
@@ -456,9 +431,8 @@
 \item Service quality
 \end{itemize}
 \end{itemize}
-
 \subsection{Service design: schedule}
-\label{sec:org3f396c6}
+\label{sec:org6069e77}
 \begin{itemize}
 \item Two main components
 \begin{itemize}
@@ -469,12 +443,11 @@
 \end{itemize}
 \end{itemize}
 \end{itemize}
-
 \section{Short Range Planning, con't.}
-\label{sec:orge962d95}
+\label{sec:org32c389a}
 
 \subsection{Service reliability}
-\label{sec:org9355789}
+\label{sec:org5c089d7}
 \begin{itemize}
 \item Walk up service
 \begin{itemize}
@@ -488,9 +461,8 @@
 \item Performance measurement based on punctuality
 \end{itemize}
 \end{itemize}
-
 \subsection{Alternative benefit measures}
-\label{sec:orgc6ef51c}
+\label{sec:orgb2877b0}
 \begin{itemize}
 \item Revenue
 \begin{itemize}
@@ -521,12 +493,11 @@
 \item Easy to measure, related to >50\% bus costs, but doesn't reflect cost differences between peak and off-peak
 \end{itemize}
 \end{itemize}
-
 \section{Modal Capacities and Costs}
-\label{sec:org2dead09}
+\label{sec:orgb8b0fa4}
 
 \subsection{Simple calculation analysis}
-\label{sec:orgd138168}
+\label{sec:orgdbe1ae5}
 \begin{itemize}
 \item Given
 \begin{itemize}
@@ -547,9 +518,8 @@
 \item Maximum access distance to transit line = \(\frac{L\theta}{2}\)
 \end{itemize}
 \end{itemize}
-
 \subsection{Theoretical capacities}
-\label{sec:org47e2bda}
+\label{sec:org99f47be}
 \begin{itemize}
 \item Rail
 \begin{itemize}
@@ -578,9 +548,8 @@
 \item 18,000 passengers/hr
 \end{itemize}
 \end{itemize}
-
 \subsection{Capital costs}
-\label{sec:orga9a4735}
+\label{sec:org9c90305}
 \begin{itemize}
 \item In the US, \$18.2 billion was spent in capital costs in 2013
 \begin{itemize}
@@ -605,9 +574,8 @@
 \begin{center}
 \includegraphics[width=.9\linewidth]{.images/cap-cost-breakdown.png}
 \end{center}
-
 \subsection{Infrastructure cost}
-\label{sec:org5e39c13}
+\label{sec:orgb3f07d6}
 \begin{itemize}
 \item Type of construction (increasing in cost)
 \begin{itemize}
@@ -623,9 +591,8 @@
 \item Number, size, complexity and length of stations
 \item Systems complexity
 \end{itemize}
-
 \subsection{Typical capital costs per passenger mile}
-\label{sec:orge1687a2}
+\label{sec:orgcb0c3b2}
 \begin{itemize}
 \item For all modes
 \begin{itemize}
@@ -633,9 +600,8 @@
 \item Infrastructure cost per pass. mile: \$0.01-1.00i (because there are so many different ways of doing it)
 \end{itemize}
 \end{itemize}
-
 \subsection{Operating costs}
-\label{sec:org071d821}
+\label{sec:org4f36a35}
 \begin{itemize}
 \item In the US, \$42.2 billion was spent on operating costs in 2013
 \begin{itemize}
@@ -658,12 +624,11 @@
 \end{itemize}
 \end{itemize}
 \end{itemize}
-
 \section{Cost Estimation}
-\label{sec:orgf89da06}
+\label{sec:orgc31222b}
 
 \subsection{Roles}
-\label{sec:org67ad4e8}
+\label{sec:org1e8720a}
 \begin{itemize}
 \item Predict cost change associated with service change
 \begin{itemize}
@@ -678,9 +643,8 @@
 \end{itemize}
 \item Subsidy allocation among jurisdictions
 \end{itemize}
-
 \subsection{Types of cost models}
-\label{sec:org7e08cdc}
+\label{sec:org5c1bc65}
 \begin{itemize}
 \item Fully allocated causal factor models
 \begin{itemize}
@@ -689,18 +653,16 @@
 \item Temporal variation models
 \item Incremental fixed/variable cost models
 \end{itemize}
-
 \subsection{Fully allocated causal factor models}
-\label{sec:org1fb39d0}
+\label{sec:orgc47d008}
 \begin{itemize}
 \item Select causal factors: vehicle hours, miles, peak vehicles
 \item Assign each expense type to an appropriate factor
 \item Calculate average costs per unit of Factor A, B, C
 \item Define cost model as: \(A \times \text{vehicle hours} + B \times \text{vehicle miles} + C \times \text{peak vehicles}\)
 \end{itemize}
-
 \subsection{Temporal variation models}
-\label{sec:org84d4c72}
+\label{sec:orgecf4dfd}
 \begin{itemize}
 \item Follow fully allocated causal factor model procedure for all except operator costs
 \item To estimate operator costs, for each 30 min time period \(t\),
@@ -709,6 +671,211 @@
 \item for each run \(i\), compute the average pay per vehicle hour by dividing daily pay \(W_i\) by vehicle hours \(H_i\)
 \item find the minimum, average and maximum pay per vehicle hour in period \(t\). Average given by:
 \[W_i = \frac{\sum^{n}_{i=1}(\frac{W_i}{H_i})}{n}\]
+\end{itemize}
+\end{itemize}
+\section{Ridership Forecasting}
+\label{sec:org0b17a0b}
+
+\subsection{Roles}
+\label{sec:orgc1ee267}
+\begin{itemize}
+\item Predicting ridership as a result of changing fares
+\item Predicting ridership for general agency planning and budgeting
+\item Predicting ridership as a result of service changes
+\end{itemize}
+\subsection{Factors Affecting Transit Ridership}
+\label{sec:org208bb4a}
+\begin{itemize}
+\item Exogenous
+\begin{itemize}
+\item Auto ownership availability
+\item Gas prices
+\item Demographics
+\item Usually can be assumed to be ``fixed'' in the short run
+\end{itemize}
+\item Endogenous
+\begin{itemize}
+\item Fare
+\item Headways
+\item Route structure (walk time, ride time)
+\item Crowding
+\item Reliability
+\end{itemize}
+\end{itemize}
+\subsection{Route Ridership Prediction}
+\label{sec:org008ba33}
+\begin{itemize}
+\item Traditional approach is reactive
+\begin{itemize}
+\item Exogenous change: monitor ridership change
+\item Endogenous change: modify system accordingly
+\end{itemize}
+\end{itemize}
+\subsection{Professional Judgement}
+\label{sec:org23a76fe}
+\begin{itemize}
+\item Widely used
+\item Based on experience and local knowledge
+\item No evidence of accuracy or reproducability
+\item Lack of faith in data, etc.
+\end{itemize}
+\subsection{Survey-based Methods}
+\label{sec:org4b32edb}
+\begin{itemize}
+\item Non-committal survey
+\begin{itemize}
+\item Non recommended
+\end{itemize}
+\item Stated preference surveys
+\begin{itemize}
+\item Provide comparisons between A and B instead of A vs not-A
+\item People contradict themselves, and you can then adjust for biases
+\end{itemize}
+\end{itemize}
+\subsection{Cross-sectional Model}
+\label{sec:org9f009c4}
+\begin{itemize}
+\item Use route and demographic data to explain route ridership
+\item Many methods
+\begin{itemize}
+\item Rules of thumb
+\item ``Similar routes'' method
+\item Multiple factor trip rate model
+\item Aggregate route regression models
+\end{itemize}
+\end{itemize}
+\subsection{Typical Transit Elasticities}
+\label{sec:org58caaa0}
+\begin{itemize}
+\item Elastic = more sensitive to change
+\item Small cities have larger fare elasticities than large cities (fewer number of people)
+\item Bus travel is more elastic than commuter/rapid rail (there are more alternatives for short distances)
+\item Off peak fare elasticities are double that of peak fare
+\item Short distance trups are more elastic than long distance
+\item Fare elasticities rise with income and fall with age
+\item Work trips are the most inelastic
+\end{itemize}
+\section{Origin, Destination, and Transfer Inference}
+\label{sec:org2819c93}
+
+\subsection{Intro}
+\label{sec:orgc427eeb}
+\begin{itemize}
+\item Using automatically collected data
+\item Infers destinations (in open systems -- i.e. no tapping off)
+\item Infers transfers
+\end{itemize}
+\subsection{Key Automated Data Collection Systems (ADCS)}
+\label{sec:org92a5e15}
+\begin{itemize}
+\item Automatic Vehicle Location (AVL)
+\item Automatic Fare Collection (AFC)
+\item Automatic Passenger Counting (APC)
+\end{itemize}
+\subsection{OD Matrix Estimation}
+\label{sec:org55ce766}
+\begin{itemize}
+\item Why do we need to know about inference?
+\begin{itemize}
+\item The real destination might be on route 2 if they have to start with route 1
+\item For service planning, you want to know what people actually want to do
+\end{itemize}
+\end{itemize}
+\subsection{Origin Inference}
+\label{sec:orgd54f7ea}
+\begin{itemize}
+\item Is tap close to a time when the AVL says it was at one of the stops?
+\end{itemize}
+\subsection{Destination Inference: Closest Stop}
+\label{sec:org54a8066}
+\begin{itemize}
+\item Key assumptions
+\begin{itemize}
+\item Destination of the trip segment is close to the origin of the following trip segment
+\item No intermediate private transportation mode trip segment
+\item Passengers will not walk long distances
+\item Last trip of a day ends at the origin of the day
+\end{itemize}
+\end{itemize}
+\subsection{Destination Inference: Minimum Cost Path}
+\label{sec:org2059bfc}
+\begin{itemize}
+\item Calculate minimum cost path
+\item Useful for open systems
+\end{itemize}
+\subsection{Trip Linking Assumptions (i.e., this is a transfer)}
+\label{sec:orgccde0fd}
+\begin{itemize}
+\item Temporal conditions - interchange time (distance), maximum bus wait time (headways)
+\item Spatial conditions - Maximum interchange distance, circuity between stages, ending journey near origin
+\item Logical conditions - Must not continue at same station, same route
+\end{itemize}
+\section{Vehicle Scheduling}
+\label{sec:org9ab0e22}
+
+\subsection{Timetable Development}
+\label{sec:org624607e}
+\begin{itemize}
+\item Translating frequencies into a timetable
+\begin{itemize}
+\item Equal headways
+\begin{itemize}
+\item Peak Period Duration / \(N\)
+\end{itemize}
+\item Balanced load - more frequent service during peaks
+\begin{itemize}
+\item Total Passenger Flow / \(N\)
+\end{itemize}
+\item Clockface or not - do headways repeat every hour?
+\end{itemize}
+\end{itemize}
+\subsection{Fleet Size Required}
+\label{sec:orge929f99}
+\begin{itemize}
+\item Salzborn's Fleet Size Theorem
+\begin{itemize}
+\item Given
+\begin{itemize}
+\item \(l(k,t,s)\) = number of departures from terminal \(k\) by time \(t\) following schedule \(s\)
+\item \(a(k,t,s)\) = number of arrivals "
+\item \(d(k,t,s)\) = \(l(k,t,s)\) - \(a(k,t,s)\)
+\end{itemize}
+\item Assumptions
+\begin{itemize}
+\item no trip shifting
+\item no deadheading
+\end{itemize}
+\item \(N(s) = \sum_{k \in K} \text{max}_t(d(k,t,s))\)
+\end{itemize}
+\end{itemize}
+\subsection{Vehicle Scheduling Problem}
+\label{sec:org08ccfe8}
+\begin{itemize}
+\item Objective
+\begin{itemize}
+\item Define vehicle blocks covering revenue and non-revenue trips to
+\begin{itemize}
+\item Minimize fleet size
+\item Minimize non-revenue time/mileage
+\end{itemize}
+\item Observation
+\begin{itemize}
+\item These are proxies for cost, but a large portion of cost will depend on crew duties, which are currently unknown
+\end{itemize}
+\end{itemize}
+\item Input
+\begin{itemize}
+\item Vehicle revenue trips
+\item Possible layover arcs
+\item Possible deadhead arcs (pull-outs from depot to start point, pull-ins from end point to depot)
+\end{itemize}
+\item Variations
+\begin{itemize}
+\item Restricting vehicles to one line vs. interlining
+\item Single vs multi depot
+\item Vehicle fleet size at depot level
+\item Routes assigned to specific depot
+\item Vehicle types
 \end{itemize}
 \end{itemize}
 \end{document}

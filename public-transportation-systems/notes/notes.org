@@ -1,5 +1,5 @@
 #+LATEX_HEADER: \documentclass[11pt]{article}
-#+LATEX_HEADER: \usepackage[margin=.7in, top=1.2in]{geometry}\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\lhead{Public Transportation Systems}\rhead{Notes}\rfoot{\thepage}\
+#+LATEX_HEADER: \usepackage[margin=.7in, top=1.2in]{geometry}\usepackage{fancyhdr}\pagestyle{fancy}\fancyhf{}\lhead{Public Transportation Systems}\rhead{Notes}\rfoot{\thepage}
 #+LATEX_HEADER: \usepackage{enumitem}
 #+LATEX_HEADER: \setlist{\setlength\itemsep{0em}\setlength\topsep{0em}}}
 
@@ -497,3 +497,42 @@ file:.images/cap-cost-breakdown.png
 - Temporal conditions - interchange time (distance), maximum bus wait time (headways)
 - Spatial conditions - Maximum interchange distance, circuity between stages, ending journey near origin
 - Logical conditions - Must not continue at same station, same route
+
+* Vehicle Scheduling
+
+** Timetable Development
+- Translating frequencies into a timetable
+  - Equal headways
+    - Peak Period Duration / $N$
+  - Balanced load - more frequent service during peaks
+    - Total Passenger Flow / $N$
+  - Clockface or not - do headways repeat every hour?
+
+** Fleet Size Required
+- Salzborn's Fleet Size Theorem
+  - Given
+    - $l(k,t,s)$ = number of departures from terminal $k$ by time $t$ following schedule $s$
+    - $a(k,t,s)$ = number of arrivals "
+    - $d(k,t,s)$ = $l(k,t,s)$ - $a(k,t,s)$
+  - Assumptions
+    - no trip shifting
+    - no deadheading
+  - $N(s) = \sum_{k \in K} \text{max}_t(d(k,t,s))$
+
+** Vehicle Scheduling Problem
+- Objective
+  - Define vehicle blocks covering revenue and non-revenue trips to
+    - Minimize fleet size
+    - Minimize non-revenue time/mileage
+  - Observation
+    - These are proxies for cost, but a large portion of cost will depend on crew duties, which are currently unknown
+- Input
+  - Vehicle revenue trips
+  - Possible layover arcs
+  - Possible deadhead arcs (pull-outs from depot to start point, pull-ins from end point to depot)
+- Variations
+  - Restricting vehicles to one line vs. interlining
+  - Single vs multi depot
+  - Vehicle fleet size at depot level
+  - Routes assigned to specific depot
+  - Vehicle types
